@@ -23,8 +23,8 @@ The project combines **Lasso Regression**, **Cross-Validation**, **ANOVA**, **Ch
 
 ## 📊 Dataset Details
 
-**Source:** Kaggle — *Student Performance Factors Dataset*
-Dataset link: [https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
+**Source:** Kaggle — *Student Performance Factors Dataset*  
+**Dataset link:** [https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
 
 * **Rows:** 9,994
 * **Columns:** 29
