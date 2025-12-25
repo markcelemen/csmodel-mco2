@@ -4,9 +4,11 @@
 
 **Extended Student Performance Factors Analysis** is a comprehensive analytics project designed to uncover the key factors influencing **student academic performance**. Using **data modeling**, **statistical inference**, and **exploratory data analysis**, the project extends beyond surface-level insights by identifying statistically significant relationships between behavioral, socioeconomic, and academic variables.
 
-The project combines **Lasso Regression**, **Cross-Validation**, **ANOVA**, **Chi-Square Tests**, and **Correlation Analysis** to validate findings and guide evidence-based educational strategies.  
+The project combines **Lasso Regression**, **Cross-Validation**, **ANOVA**, **Chi-Square Tests**, and **Correlation Analysis** to validate findings and guide evidence-based educational strategies. 
 
-**Presentation slides:** [https://www.canva.com/design/DAG5hqcDa10/F9KLvrYEC_WnpkwNo5IcDw/view?utm](https://www.canva.com/design/DAG5hqcDa10/F9KLvrYEC_WnpkwNo5IcDw/view?utm)_
+**Presentation slides:** [LINK](https://www.canva.com/design/DAG5hqcDa10/F9KLvrYEC_WnpkwNo5IcDw/view?utm)_
+
+**Part 1 of Student Performance Factors Analysis:** [LINK](https://github.com/markcelemen/csmodel-mco1)
 
 ---
 
