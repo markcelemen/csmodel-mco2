@@ -6,7 +6,7 @@
 
 The project combines **Lasso Regression**, **Cross-Validation**, **ANOVA**, **Chi-Square Tests**, and **Correlation Analysis** to validate findings and guide evidence-based educational strategies. 
 
-**Presentation slides:** [LINK](https://www.canva.com/design/DAG5hqcDa10/F9KLvrYEC_WnpkwNo5IcDw/view?utm)_
+**Presentation slides:** [LINK](https://www.canva.com/design/DAG5hqcDa10/F9KLvrYEC_WnpkwNo5IcDw/view?utm)
 
 **Part 1 of Student Performance Factors Analysis:** [LINK](https://github.com/markcelemen/csmodel-mco1)
 
