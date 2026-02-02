@@ -29,7 +29,7 @@ The project combines **Lasso Regression**, **Cross-Validation**, **ANOVA**, **Ch
 **Source:** Kaggle — *Student Performance Factors Dataset*  
 **Dataset link:** [https://www.kaggle.com/datasets/lainguyn123/student-performance-factors](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
 
-* **Rows:** 9,994
+* **Rows:** 6,607
 * **Columns:** 29
 * Variables include study hours, attendance, parental background, teacher quality, resource access, exam scores, and more.
 
