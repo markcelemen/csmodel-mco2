@@ -6,8 +6,6 @@
 
 The project combines **Lasso Regression**, **5-fold Cross-Validation**, **Spearman Correlation**, **ANOVA**, and **Chi-Square Tests**.
 
-This is a course project (CSMODEL). It reports **associations** in one dataset. It does not show that any factor *causes* higher or lower scores.
-
 **Part 1 of Student Performance Factors Analysis:** [LINK](https://github.com/markcelemen/csmodel-mco1)
 
 **Presentation slides:** [View Project Slides on Canva](https://www.canva.com/design/DAG5hqcDa10/F9KLvrYEC_WnpkwNo5IcDw/view?utm)
