@@ -126,12 +126,16 @@ These are correlations. They do not show that studying more, attending more, or 
 
 ---
 
-## ⚠️ Known Issues
+## 🛠️ Corrections Made After Submission
 
-* **Teacher quality (notebook cells on "Teacher Quality vs Exam Score").** The notebook's correlation output for this test is `nan`, and its written text reports r = −0.055 and a "paradox" with the Lasso result. That value only reproduces if Low/Medium/High are coded alphabetically (High=0, Low=1, Medium=2). With the correct order, the correlation is +0.081, which agrees with the Lasso direction. This README uses the corrected value. The notebook has not been fixed yet.
-* **Some saved notebook outputs differ from the written text** (for example, resource ANOVA F = 98.00 and hour-group F = 220.22 in saved output, versus 94.12 and 216.21 in the text). Re-running on the cleaned data gives the values in this README.
-* **Lasso interpretation.** The notebook text says only two predictors were significant. Lasso kept 18 of 24 features with non-zero coefficients. Attendance and Hours Studied are the two largest, not the only ones.
-* We have not answered whether there is a point where more study hours stop helping.
+We re-checked the notebook after submitting it and fixed these:
+
+* **Teacher quality.** The original notebook passed the raw text labels (Low/Medium/High) to `spearmanr`, which ranks them alphabetically. That produced the r = −0.055 "paradox" in our write-up (and `nan` in the saved output). The notebook now codes the levels in their real order (Low < Medium < High). The correct result is a weak positive correlation (ρ = +0.081), which agrees with the Lasso direction.
+* **Saved outputs vs. written text.** Some saved outputs (for example, resource ANOVA F = 98.00 and hour-group F = 220.22) did not match the numbers in our text. The notebook was re-run top to bottom, and the text now matches the outputs.
+* **Lasso interpretation.** The notebook said only two predictors were significant. Lasso kept 18 of 24 features with non-zero coefficients. The text now says Attendance and Hours Studied are the two largest, and it notes that target-encoded categorical coefficients are not on the same scale as the numeric ones. A new check re-fits the model with all features standardized (Attendance 2.29 and Hours Studied 1.76 stay on top).
+* **Wording.** Conclusions that implied cause ("influences," "leads to") now describe associations.
+
+**Still open:** we have not tested where, if anywhere, extra study hours stop helping.
 
 ---
 
@@ -182,10 +186,8 @@ jupyter notebook
 
 ## 🔮 Future Enhancements
 
-* Fix the teacher quality encoding in the notebook and re-run that section
-* Standardize all features before comparing Lasso coefficients
 * Test additional models (Random Forest, Gradient Boosting, Ridge, ElasticNet)
-* Include `Previous_Scores` and `Tutoring_Sessions` in the discussion. Both rank high once features are on the same scale.
+* Discuss `Previous_Scores` and `Tutoring_Sessions` in the write-up. Both rank high once features are on the same scale.
 * Check the effect of study hours across groups to see whether gains level off
 * Interactive dashboards (Plotly, Streamlit)
 
